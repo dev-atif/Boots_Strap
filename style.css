@@ -1,0 +1,47 @@
+.text-color {
+  color: #404040;
+}
+.Gradinat-div {
+  font-size: 38px;
+  color: white;
+  font-weight: 700;
+  background-image: linear-gradient(#3792de, #4ec7f2);
+  border-radius: 8px;
+  text-align: center;
+  padding-bottom: 5px;
+}
+.Customer-container {
+  background-color: #f3f3f3;
+  padding: 10px 30px;
+  border-radius: 10px;
+  .sub-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.footer-container{
+    background-color: black;
+    margin-top: 8%;
+    .Footer{
+        padding-top: 5%;
+        padding-bottom: 5%;
+        color: white;
+       
+        margin-top: 8%;
+        max-width: 1024px;
+        margin: auto;
+    }
+}
+.sidebar-video{
+  width: 100%;
+  height: 100%;
+}
+@media screen and (max-width: 1024px) {
+  .Gradinat-div {
+    font-size: 29px;
+    padding: 15px;
+  }
+}
+

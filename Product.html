@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Nav Bar ---------------------------------------- -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid d-flex justify-content-around">
+        <!-- Left content -->
+        <div>
+          <img src="./LOGO.png" alt="logo" />
+        </div>
+
+        <div>
+          <ul class="navbar-nav fw-bold fs-6 text-dark d-flex flex-row gap-4">
+            <li class="nav-item"><a class="nav-link" href="#">BLog 1</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Blog 2</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Blog 3</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <ul class="navbar-nav fw-bold fs-6 text-dark gap-4 flex-row">
+            <li class="nav-item"><a class="nav-link" href="#">Shop</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Account</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Main  Content -->
+    <div class="container-xxl mx-auto">
+      <div>
+        <div class="text-center fw-bold mt-5 pt-5">
+          <h1>Welcome to Spring Aqua!</h1>
+        </div>
+        <div class="row mt-5 pt-5">
+          <!-- --------Video Player --------------------- -->
+          <div class="col-lg-8 ">
+            <video src="movie.mp4" controls class="w-100">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <!-- --------------------Side bar -->
+          <div class="col-lg-4   ">
+           <div class="border border-secondary rounded pb-1">
+            <div class="fw-bold fs-6 container d-flex flex-column pt-3 pb-2">
+                <h6 class=" ps-3" style="color: #f57800">
+                  Video playlist:<span class="text-primary">10Videos</span>
+                </h6>
+              </div>
+              <!-- ---------------------- -->
+              <div class="border-top border-bottom border-black p-0">
+                <div class="row container mx-auto py-3">
+                  <div class="col-5">
+                    <video src="movie.mp4" controls class="sidebar-video">
+                      Your browser does not support the video tag.
+                    </video>
+                  </div>
+                  <div class="col-7 p-0">
+                    <h6 class="text-primary fw-bold">Spring aqua Overview</h6>
+                    <p class="fw-bold fs-6">07 : 07</p>
+                  </div>
+                </div>
+              </div>
+              <!-- ---------- -->
+              <div class=" border-bottom border-black p-0">
+                  <div class="row container mx-auto py-3">
+                    <div class="col-5">
+                      <video src="movie.mp4" controls class="sidebar-video">
+                        Your browser does not support the video tag.
+                      </video>
+                    </div>
+                    <div class="col-7 p-0">
+                      <h6 class="text-dark fw-bold">Pure like spring water</h6>
+                      <p class="fw-bold fs-6">07 : 07</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- ----------------------- -->
+                <div class="  p-0">
+                  <div class="row container mx-auto py-3">
+                    <div class="col-5">
+                      <video src="movie.mp4" controls class="sidebar-video">
+                        Your browser does not support the video tag.
+                      </video>
+                    </div>
+                    <div class="col-7 p-0">
+                      <h6 class="text-dark fw-bold">Clean</h6>
+                      <p class="fw-bold fs-6">07 : 07</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- -----Buttons---------------- -->
+                <div class="  ">
+                  <div class="row px-3 ">
+                    <div class="col-6 p-0 pe-1">
+                      <button class="border-0 py-2 w-100 " style="background-color: #f57800; border-radius: 0px 0px 0px 8px;"><i class="fa-solid fs-4 fa-chevron-up"></i></button>
+                    </div>
+                    <div class="col-6 p-0">
+                      <button  class="border-0 py-2 w-100 " style="background-color: #f57800; border-radius: 0px 0px 8px 0px;"><i class="fa-solid fs-4 fa-chevron-down"></i></i></button>
+                    </div>
+                  </div>
+                </div>
+           </div>
+          </div>
+          <div></div>
+        </div>
+      </div>
+    </div>
+    <!-- FOOTER -------------------------------------------------------------- -->
+    <div class="footer-container text-center text-xl-start">
+      <div class="Footer container-lg mx-auto">
+        <div class="row">
+          <div class="col-sm">
+            <h4 class="fw-semibold">Support</h4>
+            <ul class="nav flex-column fw-semibold gap-2 fs-6 mt-4">
+              <li class="nav-item">
+                <a href="#" class="nav-link p-0 text-light">Product support</a>
+              </li>
+              <li class="nav-item">
+                <a href="./Product.html" class="nav-link p-0 text-light"
+                  >Contact us</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link p-0 text-light">Privacy policy</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm">
+            <h4 class="fw-semibold">Technology</h4>
+            <ul class="nav flex-column fw-semibold gap-2 fs-6 mt-4">
+              <li class="nav-item">
+                <a href="#" class="nav-link p-0 text-light">Videos</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link p-0 text-light">Technology</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link p-0 text-light">Real hydration</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link p-0 text-light">Hydrogen water</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link p-0 text-light"
+                  >SGS certification</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link p-0 text-light">FAQ</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm">
+            <h4 class="fw-semibold">Shop</h4>
+            <ul class="nav flex-column fw-semibold gap-2 fs-6 mt-4">
+              <li class="nav-item">
+                <a href="#" class="nav-link p-0 text-light">WET 7</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link p-0 text-light">WET 5</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link p-0 text-light">WET 3</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm">
+            <h4 class="fw-semibold">Community</h4>
+            <ul class="nav flex-column fw-semibold gap-2 fs-6 mt-4">
+              <li class="nav-item">
+                <a href="#" class="nav-link p-0 text-light">Reviews</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link p-0 text-light">Recommended by</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="text-center mt-5">
+          <img src="./LOGO (2).png" alt="logo" />
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
